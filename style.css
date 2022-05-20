@@ -27,8 +27,12 @@
         font-weight: 700;
         font-family: Montserrat;
         margin-bottom: .5rem;
+
     }
 
+    .heads {
+        padding-top: 2rem;
+    }
 
     sub {
         text-decoration: line-through;
@@ -37,6 +41,8 @@
     input {
         margin-top: .5rem;
         font-family: Montserrat;
+        border-radius: 5px;
+        border: 1px solid gray;
     }
 
 
@@ -46,6 +52,7 @@
     }
 
     .container {
+        padding-top: 2rem;
         width: 100vw;
         height: 95vh;
         display: grid;
@@ -138,10 +145,9 @@
 
     }
 
-    .input-box .country{
+    /* .input-box .country {
         display: block;
-        background-color: red;
-    }
+    } */
 
     .input-box .country #dropdown {
         padding: .5rem 0 .5rem 2rem;
@@ -272,7 +278,8 @@
 
 /* ! mediaaaaaa */
 @media only screen and (max-width: 540px) {
-/* @media only screen and (max-width: 1490px) { */
+
+    /* @media only screen and (max-width: 1490px) { */
     * {
         margin: 0;
         padding: 0;
@@ -355,6 +362,7 @@
         transform: translateX(-50%);
         margin-top: -3rem;
     }
+
     .see_this {
         top: 1rem;
     }
