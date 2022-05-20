@@ -203,10 +203,6 @@
         top: 4rem;
     }
 
-
-
-
-
     /* !================== right */
 
     .shopping-card {
@@ -216,8 +212,6 @@
         border-radius: 10px;
         margin-left: 1rem;
         font-family: Montserrat;
-
-
     }
 
     .back-bag {
@@ -226,19 +220,15 @@
         /* grid-template-rows: 1fr; */
         /* border: 1px solid red; */
         margin-bottom: 2rem;
-
     }
 
     .back-img {
         grid-row: span 2;
-
-
     }
 
     .shoes {
         display: grid;
         grid-template-columns: auto 1fr;
-
     }
 
     .shoe-img {
